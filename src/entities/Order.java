@@ -17,7 +17,7 @@ public class Order {
 	public Order() {
 	}
 
-	public Order(Date moment, OrderStatus status, List<OrderItem> orderItem, Client client) {
+	public Order(Date moment, OrderStatus status, Client client) {
 		this.moment = moment;
 		this.status = status;
 		this.client = client;
